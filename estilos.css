@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin: 0%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: #f1dfd1;
+    background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+    margin: 0%;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100hw;
+    }
+
+#iconoCarrito{
+    width: 50px;
+    height: 50px;
+}
+
+footer{
+    background-color: #deebdd;
+    background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%);
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+    width: 100vw;
+    }
+
+footer img{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
+
+div ul{
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.galeriaCategorias{
+    background-color: #f1dfd1;
+    background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-areas: 
+    "catego1 catego2 catego3"
+    "catego4 catego5 catego6";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    text-align: center;
+}
+
+
+.galeriaMarcas{
+    background-color: #f1dfd1;
+    background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-areas: 
+    "gale1 gale2 gale3"
+    "gale4 gale5 gale6";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    text-align: center;
+}
+
+.losMasVendidos{
+    background-color: #f1dfd1;
+    background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-areas: 
+    "arti1 arti2 arti3 arti4";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    text-align: center;
+    height: 200px;
+}
+
+.arti1{
+    grid-area: arti1;
+}
+
+.arti2{
+    grid-area: arti2;
+}
+
+.arti3{
+    grid-area: arti3;
+}
+.arti4{
+    grid-area: arti4;
+}
+
+.catego1{
+    grid-area: arti1;
+}
+
+.catego2{
+    grid-area: arti2;
+}
+
+.catego3{
+    grid-area: arti3;
+}
+.catego4{
+    grid-area: arti4;
+}
+
+.catego5{
+    grid-area: arti3;
+}
+.catego6{
+    grid-area: arti4;
+}
+
+.gale1{
+    grid-area: arti1;
+}
+
+.gale2{
+    grid-area: arti2;
+}
+
+.gale3{
+    grid-area: arti3;
+}
+.gale4{
+    grid-area: arti4;
+}
+
+.gale5{
+    grid-area: arti3;
+}
+.gale6{
+    grid-area: arti4;
+}
+.menu{
+    background-color: #deebdd;
+    background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%);
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+.colorMenu{
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
+   
+h1{
+    text-align: center;
+    font-style:italic;
+    font-weight:bold;
+    padding:15px;
+    background-color: #f1dfd1;
+    background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+}
+
+h2{
+    background-color: #f1dfd1;
+    background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    margin: 0%;
+    }
+
+h3{
+    background-color: #f1dfd1;
+    background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin: 0%;
+}
+
+.fondoUno {
+    width: 100%;
+    background-image: url(img/artesano.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.fondoDos{
+    width: 100%;
+    background-image: url(img/collage.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.form{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+.cuadrosFormulario{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.mapa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px color black;
+    width: 100vw;
+}
+.video{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px color black;
+    width: 100vw;
+    height: 100vh;
+}
+/** MOBILE FIRST **/ 
+
+@media (max-width: 480px){
+    .menu{
+        background-color: #deebdd;
+        background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%);
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 15px;
+        display: flex nowrap;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 30%;  
+        row-gap: 10px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+    }
+        .losMasVendidos{
+        background-color: #f1dfd1;
+        background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+        padding-bottom: 20px;
+        display:flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+        .galeriaCategorias{
+        background-color: #f1dfd1;
+        background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+        padding-bottom: 20px;
+        display:flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+        .galeriaMarcas{
+        background-color: #f1dfd1;
+        background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+        padding-bottom: 20px;
+        display:flex;
+        flex-direction: column;
+        height: auto;
+    }
+        .video{
+            width: 100vw;
+            height: 400px;
+        }
+}
+
+/** TABLET **/
+
+@media (min-width: 481px) and (max-width: 1023px){
+
+    .menu{
+        background-color: #deebdd;
+        background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%);
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        display: flex nowrap;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 30%;  
+        row-gap: 10px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+    }
+    .losMasVendidos{
+        background-color: #f1dfd1;
+        background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-areas: 
+        "arti1 arti2"
+        "arti3 arti4";
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        text-align: center;
+        height: auto;
+        column-gap: 10px;
+    }
+
+footer{
+    height: auto;
+}
+    .video{
+        width: 100vw;
+        height: 800px;
+    }
+}
+/** DESKTOP **/
+@media (min-width: 1024px) {
+    .losMasVendidos{
+        background-color: #f1dfd1;
+        background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-areas: 
+        "arti1 arti2 arti3 arti4";
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        text-align: center;
+        height: 200px;
+        column-gap: 10px;
+        width: 100vw;
+    }
+
+
+}
